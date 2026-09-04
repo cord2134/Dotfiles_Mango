@@ -1,7 +1,7 @@
 # mango-config
 Initially cloned from:
 ``` bash
- git clone https://github.com/Dreammango/mango-config.git ~/.config/mango
+ git clone https://github.com/DreamMaoMao/mango-config.git ~/.config/mango
  ```
  * Making changes in it.
  *Changes so far:
