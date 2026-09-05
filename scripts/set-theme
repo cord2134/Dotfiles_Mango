@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "Usage: set-theme /path/to/image.jpg"
+    exit 1
+fi
+
+# Generate colors
+wal -q -n -i "$1"
+
+# Kill old wallpaper
+killall swaybg
+
+# Launch new wallpaper in a completely untracked session
+setsid swaybg -i "$1" >/dev/null 2>&1 &
+
+# Reload Waybar
+killall -SIGUSR2 waybar

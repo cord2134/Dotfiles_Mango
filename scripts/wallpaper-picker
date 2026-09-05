@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Define where your wallpapers live
+WALL_DIR="$HOME/.config/mango/Wallpapers"
+
+# Send the files to Rofi and save the selection
+SELECTED=$(ls -1 "$WALL_DIR" | rofi -dmenu -i -p " Choose Wallpaper")
+
+# If a wallpaper was selected, apply the theme using the new absolute path
+if [ -n "$SELECTED" ]; then
+    ~/.config/mango/scripts/set-theme "$WALL_DIR/$SELECTED"
+fi

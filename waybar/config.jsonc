@@ -12,6 +12,7 @@
         "dwl/window"
     ],
     "modules-center": [
+	"custom/wallpaper"
     ],
     "modules-right": [
         "network",
@@ -151,5 +152,10 @@
     "tooltip": true,
     "on-click": "blueman-manager",       // opens Blueman GUI (recommended for pairing/connecting)
     "on-click-right": "bluetoothctl power off && bluetoothctl power on"  // quick toggle power
+},
+"custom/wallpaper": {
+    "format": "  Theme ",
+    "on-click-release": "/home/nograss/.config/mango/scripts/wallpaper-picker",
+    "tooltip": false
 }
 }

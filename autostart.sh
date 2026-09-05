@@ -13,7 +13,7 @@ swaync -c ~/.config/mango/swaync/config.jsonc -s ~/.config/mango/swaync/style.cs
 wlsunset -T 6500 -t 4500 >/dev/null 2>&1 &
 
 # wallpaper
-swaybg -i ~/Pictures/Wallpapers/blackimg.png>/dev/null 2>&1 &
+swaybg -i "$(cat ~/.cache/wal/wal)" >/dev/null 2>&1 &
 
 # top bar
 waybar -c ~/.config/mango/waybar/config.jsonc -s ~/.config/mango/waybar/style.css >/dev/null 2>&1 &
@@ -35,8 +35,6 @@ wl-paste --type image --watch cliphist store >/dev/null 2>&1 &
 
 # bluetooth 
 blueman-applet >/dev/null 2>&1 &
-
-
 
 
 # Permission authentication

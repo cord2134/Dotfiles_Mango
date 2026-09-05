@@ -1,19 +1,20 @@
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
 * {
     g-spacing: 10px;
     g-margin: 0;
-    b-color: #000000cc;
-    fg-color: #d3d3ce;
-    fgp-color: #888888FF;
+    b-color: #000000cc; 
+    fg-color: @foreground;
+    fgp-color: @normal-foreground;
     b-radius: 10px;
     g-padding: 8px;
-    hl-color:#AC9259;
-    highlight: bold italic underline #fb4934;
-    hlt-color: #000000cc;
-    alt-color: #111111cc;
-    wbg-color: #201B14;
-    // wbg-color: #201B14d0;
+    hl-color: @selected-normal-background;
+    highlight: bold italic underline;
+    hlt-color: #000000cc; 
+    alt-color: #111111cc; 
+    wbg-color: @background;
     w-border: 2px solid;
-    w-border-color: #c9b890;
+    w-border-color: @selected-normal-background;
     w-padding: 12px;
 }
 

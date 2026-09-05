@@ -4,12 +4,14 @@ Initially cloned from:
  git clone https://github.com/DreamMaoMao/mango-config.git ~/.config/mango
  ```
  * Making changes in it.
- *Changes so far:
+ * Changes so far:
     * Added extra contents in waybar
     * Custom display manager using SDDM
     * Added clipboard and history
     * Added pywal to fetch colours
     * Added a some extra custom scripts
+    * Added a script which extracts colors from wallpaper to change waybar color and rofi color according to the wallpaper
+    * Added new wallpapers and changed some extra script
 
 * Plan:
     * Add and change waybar appearance
