@@ -21,6 +21,6 @@ Initially cloned from:
     * Quality of life updates
 
 * Changes as of now
-To use these(Still not completed):
+* To use these(Still not completed):
 ```bash
 git clone https://github.com/cord2134/Dotfiles_Mango.git
