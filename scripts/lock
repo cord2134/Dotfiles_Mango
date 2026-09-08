@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Load Pywal colors and current wallpaper
+source "$HOME/.cache/wal/colors.sh"
+WALLPAPER=$(cat "$HOME/.cache/wal/wal")
+
+# Generate the Hyprlock config dynamically
+cat << EOF > /tmp/mango-hyprlock.conf
+background {
+    monitor =
+    path = $WALLPAPER
+    blur_passes = 2
+    blur_size = 7
+}
+
+input-field {
+	
+    monitor =
+    size = 300, 50
+    outline_thickness = 3
+    dots_size = 0.33
+    dots_spacing = 0.15
+    outer_color = rgb(${color2:1})
+    inner_color = rgb(${background:1})
+    font_color = rgb(${foreground:1})
+    fade_on_empty = false
+    placeholder_text = <i>Enter Password...</i>
+    hide_input = false
+    fail_text=<i>Wrong Password, try again!</i>
+    fail_color=rgb(${color1:1})
+    position = 0, -20
+    halign = center
+    valign = center
+}
+EOF
+
+# Launch Hyprlock
+hyprlock -c /tmp/mango-hyprlock.conf
