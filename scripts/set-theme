@@ -8,11 +8,35 @@ fi
 # Generate colors
 wal -q -n -i "$1"
 
+pywalfox update
+
+mkdir -p "$HOME/.config/gtk-4.0"
+cp "$HOME/.cache/wal/colors-gtk4.css" "$HOME/.config/gtk-4.0/gtk.css"
+
+# Gracefully restart Nautilus in the background to apply the new CSS
+killall nautilus >/dev/null 2>&1
+
 # Kill old wallpaper
 killall swaybg
 
 # Launch new wallpaper in a completely untracked session
 setsid swaybg -i "$1" >/dev/null 2>&1 &
 
-# Reload Waybar
+# Load Pywal colors
+source "$HOME/.cache/wal/colors.sh"
+
+# Update MangoWM config.conf borders (formatted as 0xRRGGBBff)
+sed -i "s/^focuscolor=.*/focuscolor=0x${color2:1}ff/" "$HOME/.config/mango/config.conf"
+sed -i "s/^bordercolor=.*/bordercolor=0x${background:1}ff/" "$HOME/.config/mango/config.conf"
+  
+# Force Wayland variables so Waybar can talk to the display
+export XDG_RUNTIME_DIR=/run/user/$(id -u)
+export WAYLAND_DISPLAY=wayland-1
+
+sleep 0.5
+
+# Run the reload command and catch the exact error if it fails
+mmsg -s -d reload_config
+
+#Reload Waybar
 killall -SIGUSR2 waybar

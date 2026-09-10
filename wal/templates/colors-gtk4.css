@@ -1,0 +1,12 @@
+@define-color accent_color {color2};
+@define-color accent_bg_color {color2};
+@define-color window_bg_color {background};
+@define-color window_fg_color {foreground};
+@define-color headerbar_bg_color {background};
+@define-color headerbar_fg_color {foreground};
+@define-color popover_bg_color {background};
+@define-color popover_fg_color {foreground};
+@define-color view_bg_color {background};
+@define-color view_fg_color {foreground};
+@define-color card_bg_color {color1};
+@define-color card_fg_color {foreground};

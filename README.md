@@ -13,11 +13,11 @@ Initially cloned from:
     * Added a script which extracts colors from wallpaper to change waybar color and rofi color according to the wallpaper
     * Added new wallpapers and changed some extra script
     * Changed the lock screen with hyprlock to match the wallpaper
+    * FireFox color match
+    * Border changes with wallpaper(but gotta reload)
 
 * Plan:
     * Add and change waybar appearance
-    * Change border to match with wallpaper
-    * FIrefox theme
     * Quality of life updates
 
 * Changes as of now
