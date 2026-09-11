@@ -15,6 +15,7 @@ Initially cloned from:
     * Changed the lock screen with hyprlock to match the wallpaper
     * FireFox color match
     * Border changes with wallpaper(but gotta reload)
+    * Added a upgrade in rofi
 
 * Plan:
     * Add and change waybar appearance
