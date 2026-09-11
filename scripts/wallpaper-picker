@@ -1,12 +1,28 @@
 #!/bin/bash
 
-# Define where your wallpapers live
 WALL_DIR="$HOME/.config/mango/Wallpapers"
 
-# Send the files to Rofi and save the selection
-SELECTED=$(ls -1 "$WALL_DIR" | rofi -dmenu -i -p " Choose Wallpaper")
+# 2. Build the Rofi menu list using the hidden icon syntax
+file_list=""
+for file in "$WALL_DIR"/*.{jpg,jpeg,png}; do
+    # Skip if no files match
+    [ -e "$file" ] || continue
+    
+    filename=$(basename "$file")
+    # The magic format: Text\0icon\x1f/path/to/image\n
+    file_list+="${filename}\x00icon\x1f${file}\n"
+done
 
-# If a wallpaper was selected, apply the theme using the new absolute path
-if [ -n "$SELECTED" ]; then
-    ~/.config/mango/scripts/set-theme "$WALL_DIR/$SELECTED"
+# 3. Launch Rofi with Pywal colors, icons enabled, and a grid layout override
+selected=$(echo -e "$file_list" | rofi -dmenu -i -show-icons \
+    -config ~/.config/mango/rofi/config.rasi \
+    -theme-str 'listview { columns: 3; lines: 3; } element { orientation: vertical; } element-icon { size: 120px; } element-text { horizontal-align: 0.5; }' \
+    -p "  Choose Wallpaper")
+
+# 4. If an image was selected, apply it!
+if [ -n "$selected" ]; then
+    full_path="$WALL_DIR/$selected"
+    
+    bash ~/.config/mango/scripts/set-theme "$full_path"
+    echo "Selected: $full_path"
 fi
