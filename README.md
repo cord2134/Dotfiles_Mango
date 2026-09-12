@@ -17,6 +17,8 @@ Initially cloned from:
     * Border changes with wallpaper(but gotta reload)
     * Added a upgrade in rofi(url finder)
     * QOL Update: Added preview in wallpaper and also riced it maybe
+    * Notification is riced now 
+    * Added autosuggestion in the bash using ble(More information on: https://github.com/akinomyoga/ble.sh.git)
 
 * Plan:
     * Add and change waybar appearance

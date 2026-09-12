@@ -1,0 +1,3 @@
+bleopt exec_errexit_mark=
+bleopt exec_elapsed_mark=
+bleopt highlight_syntax=
