@@ -14,7 +14,6 @@ background {
 }
 
 input-field {
-	
     monitor =
     size = 300, 50
     outline_thickness = 3
@@ -26,13 +25,29 @@ input-field {
     fade_on_empty = false
     placeholder_text = <i>Enter Password...</i>
     hide_input = false
-    fail_text=<i>Wrong Password, try again!</i>
-    fail_color=rgb(${color1:1})
+    fail_text = <i>Wrong Password, try again!</i>
+    fail_color = rgb(${color1:1})
     position = 0, -20
     halign = center
     valign = center
 }
 EOF
 
-# Launch Hyprlock
-hyprlock -c /tmp/mango-hyprlock.conf
+# Read the custom delay (defaults to 15 if not set)
+DELAY=$(cat ~/.cache/lock_sleep_delay 2>/dev/null || echo "15")
+
+# Launch hyprlock using your generated config in the background
+hyprlock -c /tmp/mango-hyprlock.conf &
+
+# Stop here if set to Never
+if [[ "$DELAY" == "Never" ]]; then
+    exit 0
+fi
+
+# Wait for the timer
+sleep "$DELAY"
+
+# Suspend if still locked
+if pgrep -x "hyprlock" > /dev/null; then
+    systemctl suspend
+fi
