@@ -20,6 +20,7 @@ Initially cloned from:
     * Notification is riced now 
     * Added autosuggestion in the bash using ble(More information on: https://github.com/akinomyoga/ble.sh.git)
     * Timer on lock 
+    * Custom music listener css, I used https://github.com/iryis/th-ch-ytmusic.git, you can either build or download from AUR
 
 * Plan:
     * Add and change waybar appearance
