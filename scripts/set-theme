@@ -16,11 +16,8 @@ cp "$HOME/.cache/wal/colors-gtk4.css" "$HOME/.config/gtk-4.0/gtk.css"
 # Gracefully restart Nautilus in the background to apply the new CSS
 killall nautilus >/dev/null 2>&1
 
-# Kill old wallpaper
-killall swaybg
-
-# Launch new wallpaper in a completely untracked session
-setsid swaybg -i "$1" >/dev/null 2>&1 &
+# Animate new wallpaper with swww
+awww img "$1" --transition-type wipe --transition-angle 30 --transition-step 90 --transition-duration 1.5
 
 # Load Pywal colors
 source "$HOME/.cache/wal/colors.sh"

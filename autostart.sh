@@ -13,7 +13,9 @@ swaync -c ~/.config/mango/swaync/config.jsonc -s ~/.config/mango/swaync/style.cs
 wlsunset -T 6500 -t 4500 >/dev/null 2>&1 &
 
 # wallpaper
-swaybg -i "$(cat ~/.cache/wal/wal)" >/dev/null 2>&1 &
+awww-daemon >/dev/null 2>&1 &
+sleep 0.5
+awww img "$(cat ~/.cache/wal/wal)" --transition-type wipe --transition-duration 1.5 >/dev/null 2>&1 &
 
 # top bar
 waybar -c ~/.config/mango/waybar/config.jsonc -s ~/.config/mango/waybar/style.css >/dev/null 2>&1 &
