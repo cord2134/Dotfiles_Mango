@@ -37,3 +37,31 @@ mmsg -s -d reload_config
 
 #Reload Waybar
 killall -SIGUSR2 waybar
+
+# Update SDDM Corners Theme
+source "$HOME/.cache/wal/colors.sh"
+SDDM_DIR="/usr/share/sddm/themes/corners"
+
+# 1. Copy the wallpaper so SDDM can read it
+cp -f "$1" "$SDDM_DIR/pywal_bg.jpg"
+
+# 2. Generate a complete override file
+cat << EOF > "$SDDM_DIR/theme.conf.user"
+[General]
+BgSource="/usr/share/sddm/themes/corners/pywal_bg.jpg"
+InputColor="$background"
+InputTextColor="$foreground"
+InputBorderColor="$color2"
+LoginButtonColor="$color4"
+LoginButtonTextColor="$background"
+PopupColor="$background"
+PopupActiveColor="$color4"
+PopupActiveTextColor="$background"
+UserBorderColor="$color2"
+DateColor="$foreground"
+TimeColor="$foreground"
+SessionButtonColor="$color2"
+SessionIconColor="$background"
+PowerButtonColor="$color2"
+PowerIconColor="$background"
+EOF
