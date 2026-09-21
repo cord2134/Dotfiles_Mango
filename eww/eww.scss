@@ -1,0 +1,21 @@
+@import "/home/nograss/.cache/wal/colors.scss";
+
+window {
+    background-color: $background;
+    border: 2px solid $color2;
+    border-radius: 10px;
+}
+
+.mycal {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 18px;
+    color: $foreground;
+    padding: 15px;
+}
+
+/* Style the current day highlight */
+calendar:selected {
+    color: $background;
+    background-color: $color4;
+    border-radius: 5px;
+}

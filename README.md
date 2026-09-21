@@ -23,6 +23,7 @@ Initially cloned from:
     * Custom music listener css, I used https://github.com/iryis/th-ch-ytmusic.git, you can either build or download from AUR
     * Less RAM usage wallpaper picker and some qol updates
     * SDDM changes and new wallpapers
+    * Calendar 
 
 * Plan:
     * Add and change waybar appearance
