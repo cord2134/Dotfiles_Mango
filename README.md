@@ -24,6 +24,7 @@ Initially cloned from:
     * Less RAM usage wallpaper picker and some qol updates
     * SDDM changes and new wallpapers
     * Calendar 
+    *Fastfetch
 
 * Plan:
     * Add and change waybar appearance
