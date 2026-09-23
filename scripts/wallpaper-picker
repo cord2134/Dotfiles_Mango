@@ -23,6 +23,6 @@ selected=$(echo -e "$file_list" | rofi -dmenu -i -show-icons \
 if [ -n "$selected" ]; then
     full_path="$WALL_DIR/$selected"
     
-    bash ~/.config/mango/scripts/set-theme "$full_path"
+    bash ~/.config/mango/scripts/set-theme "$full_path" 
     echo "Selected: $full_path"
 fi

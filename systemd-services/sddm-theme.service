@@ -1,0 +1,6 @@
+[Unit]
+Description=Update SDDM Theme with Pywal
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/nograss/.config/mango/scripts/sddm_update.sh

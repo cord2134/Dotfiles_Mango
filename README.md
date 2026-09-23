@@ -22,12 +22,11 @@ Initially cloned from:
     * Timer on lock 
     * Custom music listener css, I used https://github.com/iryis/th-ch-ytmusic.git, you can either build or download from AUR
     * Less RAM usage wallpaper picker and some qol updates
-    * SDDM changes and new wallpapers
     * Calendar 
-    *Fastfetch
+    * Fastfetch
+    * Dynamic Sddm with full rice 
 
 * Plan:
-    * Add and change waybar appearance
     * Quality of life updates
 
 * Changes as of now

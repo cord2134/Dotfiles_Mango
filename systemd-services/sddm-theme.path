@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitor wallpaper changes for SDDM
+
+[Path]
+PathModified=/home/nograss/.cache/current_wallpaper
+
+[Install]
+WantedBy=multi-user.target
