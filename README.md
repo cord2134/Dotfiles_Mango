@@ -25,6 +25,7 @@ Initially cloned from:
     * Calendar 
     * Fastfetch
     * Dynamic Sddm with full rice 
+    * Better clipboard
 
 * Plan:
     * Quality of life updates
