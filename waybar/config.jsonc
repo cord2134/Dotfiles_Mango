@@ -65,15 +65,15 @@
       "format-ethernet": "󰈀 {ifname}",
       "format-linked": "\uf059 No IP ({ifname})",
       "format-disconnected": "\uf071 Disconnected",
-      "tooltip-format": "{ifname} {ipaddr}/{cidr} via {gwaddr}",
-      "format-alt": "↓{bandwidthDownBytes} ↑{bandwidthUpBytes}"
+      "tooltip-format": "Connected to {ifname}",
     },
 
     "clock": {
-      "format": " {:%H:%M}",
-      "format-alt": " {:L%A, %b %d}",
-      "tooltip-format": "{:%Y}",
-    },
+    "format": " {:%H:%M}",
+    "tooltip-format": "{:%D}",
+    "on-click": "eww open calendar_window --toggle",
+    "on-click-right": "mode"
+},
     "backlight": {
         // "device": "acpi_video1",
         "format": "{icon} {percent}%",
@@ -154,8 +154,8 @@
     "on-click-right": "bluetoothctl power off && bluetoothctl power on"  // quick toggle power
 },
 "custom/wallpaper": {
-    "format": "  Theme ",
-    "on-click-release": "/home/nograss/.config/mango/scripts/wallpaper-picker",
+    "format": "󰣇  Theme ",
+    "on-click": "bash /home/nograss/.config/mango/scripts/wallpaper-picker > /tmp/waybar-theme.log 2>&1",
     "tooltip": false
 }
 }
