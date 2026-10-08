@@ -26,7 +26,7 @@ Initially cloned from:
     * Fastfetch
     * Dynamic Sddm with full rice 
     * Better clipboard
-    * Adding a manual
+    * Added a manual
 
 * Plan:
     * Quality of life updates
