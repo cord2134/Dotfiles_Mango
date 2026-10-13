@@ -16,8 +16,8 @@ chmod +x install.sh
 ./install.sh
 ```
 
-**This repo was initially cloned from DreamMaoMao mango config.
-**To clone and use that config you can use the command:
+*This repo was initially cloned from DreamMaoMao mango config.
+*To clone and use that config you can use the command:
 ```bash
  git clone https://github.com/DreamMaoMao/mango-config.git ~/.config/mango
  ```
