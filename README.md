@@ -1,37 +1,24 @@
 # mango-config
-Initially cloned from:
-``` bash
- git clone https://github.com/DreamMaoMao/mango-config.git ~/.config/mango
- ```
- * Making changes in it.
- * Changes so far:
-    * Added extra contents in waybar
-    * Custom display manager using SDDM
-    * Added clipboard and history
-    * Added pywal to fetch colours
-    * Added a some extra custom scripts
-    * Added a script which extracts colors from wallpaper to change waybar color and rofi color according to the wallpaper
-    * Added new wallpapers and changed some extra script
-    * Changed the lock screen with hyprlock to match the wallpaper
-    * FireFox color match
-    * Border changes with wallpaper(but gotta reload)
-    * Added a upgrade in rofi(url finder)
-    * QOL Update: Added preview in wallpaper and also riced it maybe
-    * Notification is riced now 
-    * Added autosuggestion in the bash using ble(More information on: https://github.com/akinomyoga/ble.sh.git)
-    * Timer on lock 
-    * Custom music listener css, I used https://github.com/iryis/th-ch-ytmusic.git, you can either build or download from AUR
-    * Less RAM usage wallpaper picker and some qol updates
-    * Calendar 
-    * Fastfetch
-    * Dynamic Sddm with full rice 
-    * Better clipboard
-    * Added a manual
+# Custom config files for mangowm
+![Mangowm Desktop](Desktop.png)
+![Theme Selector](Themes.png)
+![Desktop](desktop2.png)
 
-* Plan:
-    * Quality of life updates
-
-* Changes as of now
-* To use these(Still not completed):
+* To use these you either use the one-line command
+```bash
+curl -s https://raw.githubusercontent.com/cord2134/Dotfiles_Mango/main/install.sh | bash
+```
+* If you wish to build and also review the config files then:
 ```bash
 git clone https://github.com/cord2134/Dotfiles_Mango.git
+cd Dotfiles_Mango
+chmod +x install.sh
+./install.sh
+```
+
+**This repo was initially cloned from DreamMaoMao mango config.
+**To clone and use that config you can use the command:
+```bash
+ git clone https://github.com/DreamMaoMao/mango-config.git ~/.config/mango
+ ```
+
