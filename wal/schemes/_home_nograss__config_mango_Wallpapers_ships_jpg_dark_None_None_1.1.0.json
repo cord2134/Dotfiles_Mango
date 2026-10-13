@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/ships.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#192141",
+        "foreground": "#d2cbcc",
+        "cursor": "#d2cbcc"
+    },
+    "colors": {
+        "color0": "#192141",
+        "color1": "#53689C",
+        "color2": "#4777C2",
+        "color3": "#A87F85",
+        "color4": "#5D87B8",
+        "color5": "#3D82C6",
+        "color6": "#5D93CB",
+        "color7": "#d2cbcc",
+        "color8": "#938e8e",
+        "color9": "#53689C",
+        "color10": "#4777C2",
+        "color11": "#A87F85",
+        "color12": "#5D87B8",
+        "color13": "#3D82C6",
+        "color14": "#5D93CB",
+        "color15": "#d2cbcc"
+    }
+}

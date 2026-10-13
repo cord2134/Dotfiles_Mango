@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/nograss/.config/mango/Wallpapers/blackimg.png"
+let background = "#0c0b11"
+let foreground = "#b2c0dc"
+let cursor     = "#b2c0dc"
+
+" Colors
+let color0  = "#0c0b11"
+let color1  = "#505266"
+let color2  = "#58688E"
+let color3  = "#6D7291"
+let color4  = "#61739D"
+let color5  = "#837C91"
+let color6  = "#7285B4"
+let color7  = "#b2c0dc"
+let color8  = "#7c869a"
+let color9  = "#505266"
+let color10 = "#58688E"
+let color11 = "#6D7291"
+let color12 = "#61739D"
+let color13 = "#837C91"
+let color14 = "#7285B4"
+let color15 = "#b2c0dc"

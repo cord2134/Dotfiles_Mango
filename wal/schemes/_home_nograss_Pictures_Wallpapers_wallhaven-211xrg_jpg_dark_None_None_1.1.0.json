@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/Pictures/Wallpapers/wallhaven-211xrg.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#00061B",
+        "foreground": "#eed9c5",
+        "cursor": "#eed9c5"
+    },
+    "colors": {
+        "color0": "#00061B",
+        "color1": "#A86D63",
+        "color2": "#E49069",
+        "color3": "#8D7B83",
+        "color4": "#B99190",
+        "color5": "#D5A798",
+        "color6": "#E8B999",
+        "color7": "#eed9c5",
+        "color8": "#a69789",
+        "color9": "#A86D63",
+        "color10": "#E49069",
+        "color11": "#8D7B83",
+        "color12": "#B99190",
+        "color13": "#D5A798",
+        "color14": "#E8B999",
+        "color15": "#eed9c5"
+    }
+}

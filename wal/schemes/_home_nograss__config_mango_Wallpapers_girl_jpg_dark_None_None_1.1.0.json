@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/girl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C1E28",
+        "foreground": "#ccdae5",
+        "cursor": "#ccdae5"
+    },
+    "colors": {
+        "color0": "#0C1E28",
+        "color1": "#456675",
+        "color2": "#4F7688",
+        "color3": "#7091B1",
+        "color4": "#7D9CC1",
+        "color5": "#86A5BA",
+        "color6": "#8EAAC9",
+        "color7": "#ccdae5",
+        "color8": "#8e98a0",
+        "color9": "#456675",
+        "color10": "#4F7688",
+        "color11": "#7091B1",
+        "color12": "#7D9CC1",
+        "color13": "#86A5BA",
+        "color14": "#8EAAC9",
+        "color15": "#ccdae5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/Pictures/Wallpapers/G5uBmitWkAAyk8s.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0A0A",
+        "foreground": "#d3d8d3",
+        "cursor": "#d3d8d3"
+    },
+    "colors": {
+        "color0": "#0A0A0A",
+        "color1": "#707070",
+        "color2": "#996A4B",
+        "color3": "#7A857B",
+        "color4": "#C3986A",
+        "color5": "#506C96",
+        "color6": "#6B97C1",
+        "color7": "#d3d8d3",
+        "color8": "#939793",
+        "color9": "#707070",
+        "color10": "#996A4B",
+        "color11": "#7A857B",
+        "color12": "#C3986A",
+        "color13": "#506C96",
+        "color14": "#6B97C1",
+        "color15": "#d3d8d3"
+    }
+}

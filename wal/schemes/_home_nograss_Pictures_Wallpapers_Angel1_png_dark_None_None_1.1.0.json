@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/Pictures/Wallpapers/Angel1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0605",
+        "foreground": "#ddc7a4",
+        "cursor": "#ddc7a4"
+    },
+    "colors": {
+        "color0": "#0c0605",
+        "color1": "#505146",
+        "color2": "#6A5F4C",
+        "color3": "#8B5239",
+        "color4": "#9E704B",
+        "color5": "#A2895E",
+        "color6": "#B58856",
+        "color7": "#ddc7a4",
+        "color8": "#9a8b72",
+        "color9": "#505146",
+        "color10": "#6A5F4C",
+        "color11": "#8B5239",
+        "color12": "#9E704B",
+        "color13": "#A2895E",
+        "color14": "#B58856",
+        "color15": "#ddc7a4"
+    }
+}

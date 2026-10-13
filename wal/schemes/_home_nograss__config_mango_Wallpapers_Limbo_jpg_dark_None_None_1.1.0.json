@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/Limbo.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#d0d0d0",
+        "cursor": "#d0d0d0"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#585858",
+        "color2": "#676767",
+        "color3": "#787878",
+        "color4": "#878787",
+        "color5": "#979797",
+        "color6": "#A6A6A6",
+        "color7": "#d0d0d0",
+        "color8": "#919191",
+        "color9": "#585858",
+        "color10": "#676767",
+        "color11": "#787878",
+        "color12": "#878787",
+        "color13": "#979797",
+        "color14": "#A6A6A6",
+        "color15": "#d0d0d0"
+    }
+}

@@ -1,0 +1,17 @@
+:root {
+    --ytmusic-color-black1: #0c0b11;
+    --ytmusic-color-black2: #0c0b11;
+    --ytmusic-color-black3: #0c0b11;
+    --ytmusic-color-black4: #0c0b11;
+    --ytmusic-color-black-pure: #0c0b11;
+    --yt-spec-base-background: #0c0b11;
+    --yt-spec-menu-background: #0c0b11;
+    --yt-spec-raised-background: #0c0b11;
+    --yt-spec-brand-background-solid: #58688E;
+    --yt-spec-text-primary: #b2c0dc;
+    --yt-spec-text-secondary: #b2c0dc;
+    --ytmusic-text-primary: #b2c0dc;
+    --ytmusic-setting-item-toggle-active: #58688E;
+    --ytmusic-brand-background-solid: #58688E;
+    --yt-spec-call-to-action: #58688E;
+}

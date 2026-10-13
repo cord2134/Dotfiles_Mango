@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/vormir.png",
+    "alpha": "100",
+    "special": {
+        "background": "#060B12",
+        "foreground": "#c3aebe",
+        "cursor": "#c3aebe"
+    },
+    "colors": {
+        "color0": "#060B12",
+        "color1": "#6E576E",
+        "color2": "#895A68",
+        "color3": "#1A5E81",
+        "color4": "#1D6286",
+        "color5": "#2D6A8F",
+        "color6": "#5D6F92",
+        "color7": "#c3aebe",
+        "color8": "#887985",
+        "color9": "#6E576E",
+        "color10": "#895A68",
+        "color11": "#1A5E81",
+        "color12": "#1D6286",
+        "color13": "#2D6A8F",
+        "color14": "#5D6F92",
+        "color15": "#c3aebe"
+    }
+}

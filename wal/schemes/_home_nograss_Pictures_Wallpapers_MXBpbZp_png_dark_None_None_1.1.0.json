@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/Pictures/Wallpapers/MXBpbZp.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0607",
+        "foreground": "#e1cbcd",
+        "cursor": "#e1cbcd"
+    },
+    "colors": {
+        "color0": "#0c0607",
+        "color1": "#A61431",
+        "color2": "#AD252F",
+        "color3": "#D62C33",
+        "color4": "#996269",
+        "color5": "#9E7A85",
+        "color6": "#BE9BA1",
+        "color7": "#e1cbcd",
+        "color8": "#9d8e8f",
+        "color9": "#A61431",
+        "color10": "#AD252F",
+        "color11": "#D62C33",
+        "color12": "#996269",
+        "color13": "#9E7A85",
+        "color14": "#BE9BA1",
+        "color15": "#e1cbcd"
+    }
+}

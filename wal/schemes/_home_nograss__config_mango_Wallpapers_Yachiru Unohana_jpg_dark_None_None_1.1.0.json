@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/Yachiru Unohana.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0308",
+        "foreground": "#e4d8d5",
+        "cursor": "#e4d8d5"
+    },
+    "colors": {
+        "color0": "#0F0308",
+        "color1": "#AA2A2F",
+        "color2": "#946668",
+        "color3": "#A47D81",
+        "color4": "#B3979B",
+        "color5": "#D3A9A2",
+        "color6": "#CBB0B1",
+        "color7": "#e4d8d5",
+        "color8": "#9f9795",
+        "color9": "#AA2A2F",
+        "color10": "#946668",
+        "color11": "#A47D81",
+        "color12": "#B3979B",
+        "color13": "#D3A9A2",
+        "color14": "#CBB0B1",
+        "color15": "#e4d8d5"
+    }
+}

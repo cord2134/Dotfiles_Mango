@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/wallhaven-jeej1q.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090407",
+        "foreground": "#aaa4bc",
+        "cursor": "#aaa4bc"
+    },
+    "colors": {
+        "color0": "#090407",
+        "color1": "#4C395B",
+        "color2": "#4B4875",
+        "color3": "#6A4B6E",
+        "color4": "#AD534B",
+        "color5": "#F9A062",
+        "color6": "#585485",
+        "color7": "#aaa4bc",
+        "color8": "#767283",
+        "color9": "#4C395B",
+        "color10": "#4B4875",
+        "color11": "#6A4B6E",
+        "color12": "#AD534B",
+        "color13": "#F9A062",
+        "color14": "#585485",
+        "color15": "#aaa4bc"
+    }
+}

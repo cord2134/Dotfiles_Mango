@@ -1,0 +1,12 @@
+@define-color accent_color #58688E;
+@define-color accent_bg_color #58688E;
+@define-color window_bg_color #0c0b11;
+@define-color window_fg_color #b2c0dc;
+@define-color headerbar_bg_color #0c0b11;
+@define-color headerbar_fg_color #b2c0dc;
+@define-color popover_bg_color #0c0b11;
+@define-color popover_fg_color #b2c0dc;
+@define-color view_bg_color #0c0b11;
+@define-color view_fg_color #b2c0dc;
+@define-color card_bg_color #505266;
+@define-color card_fg_color #b2c0dc;

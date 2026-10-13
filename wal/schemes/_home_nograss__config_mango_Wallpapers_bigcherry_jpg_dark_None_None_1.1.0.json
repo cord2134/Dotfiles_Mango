@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/bigcherry.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101814",
+        "foreground": "#ead1de",
+        "cursor": "#ead1de"
+    },
+    "colors": {
+        "color0": "#101814",
+        "color1": "#706B90",
+        "color2": "#9D7093",
+        "color3": "#D57192",
+        "color4": "#A48DA3",
+        "color5": "#DC99A7",
+        "color6": "#A99FC9",
+        "color7": "#ead1de",
+        "color8": "#a3929b",
+        "color9": "#706B90",
+        "color10": "#9D7093",
+        "color11": "#D57192",
+        "color12": "#A48DA3",
+        "color13": "#DC99A7",
+        "color14": "#A99FC9",
+        "color15": "#ead1de"
+    }
+}

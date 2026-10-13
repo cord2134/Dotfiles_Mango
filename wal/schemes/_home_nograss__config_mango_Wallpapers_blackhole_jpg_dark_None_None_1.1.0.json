@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/blackhole.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b0d",
+        "foreground": "#decfc5",
+        "cursor": "#decfc5"
+    },
+    "colors": {
+        "color0": "#0a0b0d",
+        "color1": "#62524F",
+        "color2": "#96533C",
+        "color3": "#976E5E",
+        "color4": "#B58A74",
+        "color5": "#7A8088",
+        "color6": "#BEA99F",
+        "color7": "#decfc5",
+        "color8": "#9b9089",
+        "color9": "#62524F",
+        "color10": "#96533C",
+        "color11": "#976E5E",
+        "color12": "#B58A74",
+        "color13": "#7A8088",
+        "color14": "#BEA99F",
+        "color15": "#decfc5"
+    }
+}

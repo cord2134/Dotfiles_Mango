@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/jiji.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090e10",
+        "foreground": "#cacac5",
+        "cursor": "#cacac5"
+    },
+    "colors": {
+        "color0": "#090e10",
+        "color1": "#8F6B61",
+        "color2": "#2A8665",
+        "color3": "#65946A",
+        "color4": "#939973",
+        "color5": "#627883",
+        "color6": "#6CA08C",
+        "color7": "#cacac5",
+        "color8": "#8d8d89",
+        "color9": "#8F6B61",
+        "color10": "#2A8665",
+        "color11": "#65946A",
+        "color12": "#939973",
+        "color13": "#627883",
+        "color14": "#6CA08C",
+        "color15": "#cacac5"
+    }
+}

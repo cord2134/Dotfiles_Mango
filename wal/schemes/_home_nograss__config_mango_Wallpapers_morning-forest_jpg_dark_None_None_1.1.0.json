@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/morning-forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12161d",
+        "foreground": "#e2e4e8",
+        "cursor": "#e2e4e8"
+    },
+    "colors": {
+        "color0": "#12161d",
+        "color1": "#637489",
+        "color2": "#768799",
+        "color3": "#96A2B2",
+        "color4": "#B3B9C6",
+        "color5": "#BDC3CE",
+        "color6": "#C9CED8",
+        "color7": "#e2e4e8",
+        "color8": "#9e9fa2",
+        "color9": "#637489",
+        "color10": "#768799",
+        "color11": "#96A2B2",
+        "color12": "#B3B9C6",
+        "color13": "#BDC3CE",
+        "color14": "#C9CED8",
+        "color15": "#e2e4e8"
+    }
+}

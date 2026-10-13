@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/Pictures/Wallpapers/czd.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a09",
+        "foreground": "#aeb6bc",
+        "cursor": "#aeb6bc"
+    },
+    "colors": {
+        "color0": "#0a0a09",
+        "color1": "#4F514C",
+        "color2": "#696355",
+        "color3": "#8A5E38",
+        "color4": "#8E7355",
+        "color5": "#A28C6A",
+        "color6": "#CEA775",
+        "color7": "#aeb6bc",
+        "color8": "#797f83",
+        "color9": "#4F514C",
+        "color10": "#696355",
+        "color11": "#8A5E38",
+        "color12": "#8E7355",
+        "color13": "#A28C6A",
+        "color14": "#CEA775",
+        "color15": "#aeb6bc"
+    }
+}

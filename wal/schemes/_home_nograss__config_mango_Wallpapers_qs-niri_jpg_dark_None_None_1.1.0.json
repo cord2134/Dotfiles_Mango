@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/qs-niri.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0717",
+        "foreground": "#c0a4c8",
+        "cursor": "#c0a4c8"
+    },
+    "colors": {
+        "color0": "#0A0717",
+        "color1": "#312868",
+        "color2": "#422177",
+        "color3": "#432479",
+        "color4": "#65485B",
+        "color5": "#5B338A",
+        "color6": "#754A92",
+        "color7": "#c0a4c8",
+        "color8": "#86728c",
+        "color9": "#312868",
+        "color10": "#422177",
+        "color11": "#432479",
+        "color12": "#65485B",
+        "color13": "#5B338A",
+        "color14": "#754A92",
+        "color15": "#c0a4c8"
+    }
+}

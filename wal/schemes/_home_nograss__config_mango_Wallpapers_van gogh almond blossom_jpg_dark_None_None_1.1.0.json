@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/van gogh almond blossom.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#181911",
+        "foreground": "#c1c7be",
+        "cursor": "#c1c7be"
+    },
+    "colors": {
+        "color0": "#181911",
+        "color1": "#969270",
+        "color2": "#C8AA74",
+        "color3": "#5D7984",
+        "color4": "#647C84",
+        "color5": "#5E818A",
+        "color6": "#6F8A89",
+        "color7": "#c1c7be",
+        "color8": "#878b85",
+        "color9": "#969270",
+        "color10": "#C8AA74",
+        "color11": "#5D7984",
+        "color12": "#647C84",
+        "color13": "#5E818A",
+        "color14": "#6F8A89",
+        "color15": "#c1c7be"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/Dark-souls.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0d0c",
+        "foreground": "#c2a99e",
+        "cursor": "#c2a99e"
+    },
+    "colors": {
+        "color0": "#0f0d0c",
+        "color1": "#50423B",
+        "color2": "#6C4838",
+        "color3": "#463E41",
+        "color4": "#4F4544",
+        "color5": "#6F5349",
+        "color6": "#9E6043",
+        "color7": "#c2a99e",
+        "color8": "#87766e",
+        "color9": "#50423B",
+        "color10": "#6C4838",
+        "color11": "#463E41",
+        "color12": "#4F4544",
+        "color13": "#6F5349",
+        "color14": "#9E6043",
+        "color15": "#c2a99e"
+    }
+}

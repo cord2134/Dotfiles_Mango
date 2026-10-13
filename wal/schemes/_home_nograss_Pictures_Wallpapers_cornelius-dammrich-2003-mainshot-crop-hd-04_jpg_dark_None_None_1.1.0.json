@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/Pictures/Wallpapers/cornelius-dammrich-2003-mainshot-crop-hd-04.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0a0f",
+        "foreground": "#92acdb",
+        "cursor": "#92acdb"
+    },
+    "colors": {
+        "color0": "#0b0a0f",
+        "color1": "#364A70",
+        "color2": "#4A474C",
+        "color3": "#B06F57",
+        "color4": "#375889",
+        "color5": "#38639D",
+        "color6": "#496B9D",
+        "color7": "#92acdb",
+        "color8": "#667899",
+        "color9": "#364A70",
+        "color10": "#4A474C",
+        "color11": "#B06F57",
+        "color12": "#375889",
+        "color13": "#38639D",
+        "color14": "#496B9D",
+        "color15": "#92acdb"
+    }
+}

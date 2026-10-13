@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/wallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#12121b",
+        "foreground": "#aab9d3",
+        "cursor": "#aab9d3"
+    },
+    "colors": {
+        "color0": "#12121b",
+        "color1": "#445478",
+        "color2": "#8A8D7B",
+        "color3": "#4A5D84",
+        "color4": "#536993",
+        "color5": "#5C76A6",
+        "color6": "#617DAF",
+        "color7": "#aab9d3",
+        "color8": "#768193",
+        "color9": "#445478",
+        "color10": "#8A8D7B",
+        "color11": "#4A5D84",
+        "color12": "#536993",
+        "color13": "#5C76A6",
+        "color14": "#617DAF",
+        "color15": "#aab9d3"
+    }
+}

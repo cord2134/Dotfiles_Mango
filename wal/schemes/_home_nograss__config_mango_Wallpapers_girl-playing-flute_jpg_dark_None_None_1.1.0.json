@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/girl-playing-flute.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#04050A",
+        "foreground": "#e8bba4",
+        "cursor": "#e8bba4"
+    },
+    "colors": {
+        "color0": "#04050A",
+        "color1": "#583D41",
+        "color2": "#334659",
+        "color3": "#615254",
+        "color4": "#D75834",
+        "color5": "#9B6053",
+        "color6": "#DF7249",
+        "color7": "#e8bba4",
+        "color8": "#a28272",
+        "color9": "#583D41",
+        "color10": "#334659",
+        "color11": "#615254",
+        "color12": "#D75834",
+        "color13": "#9B6053",
+        "color14": "#DF7249",
+        "color15": "#e8bba4"
+    }
+}

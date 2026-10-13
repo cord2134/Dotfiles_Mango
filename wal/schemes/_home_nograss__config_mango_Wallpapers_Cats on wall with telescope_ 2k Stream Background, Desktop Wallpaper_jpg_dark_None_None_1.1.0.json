@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/Cats on wall with telescope_ 2k Stream Background, Desktop Wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151810",
+        "foreground": "#e7e4cf",
+        "cursor": "#e7e4cf"
+    },
+    "colors": {
+        "color0": "#151810",
+        "color1": "#547491",
+        "color2": "#4B7AAF",
+        "color3": "#6294B3",
+        "color4": "#67A4C2",
+        "color5": "#97ACA4",
+        "color6": "#ADC3B0",
+        "color7": "#e7e4cf",
+        "color8": "#a19f90",
+        "color9": "#547491",
+        "color10": "#4B7AAF",
+        "color11": "#6294B3",
+        "color12": "#67A4C2",
+        "color13": "#97ACA4",
+        "color14": "#ADC3B0",
+        "color15": "#e7e4cf"
+    }
+}

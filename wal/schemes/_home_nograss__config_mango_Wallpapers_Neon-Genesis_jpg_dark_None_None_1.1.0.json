@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/Neon-Genesis.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0e0e",
+        "foreground": "#e8e5e0",
+        "cursor": "#e8e5e0"
+    },
+    "colors": {
+        "color0": "#0e0e0e",
+        "color1": "#A49B92",
+        "color2": "#AFA69B",
+        "color3": "#B9AFA4",
+        "color4": "#C4BAAE",
+        "color5": "#CEC5B9",
+        "color6": "#D9D1C6",
+        "color7": "#e8e5e0",
+        "color8": "#a2a09c",
+        "color9": "#A49B92",
+        "color10": "#AFA69B",
+        "color11": "#B9AFA4",
+        "color12": "#C4BAAE",
+        "color13": "#CEC5B9",
+        "color14": "#D9D1C6",
+        "color15": "#e8e5e0"
+    }
+}

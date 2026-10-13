@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/Pictures/Wallpapers/wallhaven-jeew7y.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1205",
+        "foreground": "#d6d7c4",
+        "cursor": "#d6d7c4"
+    },
+    "colors": {
+        "color0": "#0F1205",
+        "color1": "#615A26",
+        "color2": "#6A6D4D",
+        "color3": "#8C7239",
+        "color4": "#7B8446",
+        "color5": "#B7AE46",
+        "color6": "#999661",
+        "color7": "#d6d7c4",
+        "color8": "#959689",
+        "color9": "#615A26",
+        "color10": "#6A6D4D",
+        "color11": "#8C7239",
+        "color12": "#7B8446",
+        "color13": "#B7AE46",
+        "color14": "#999661",
+        "color15": "#d6d7c4"
+    }
+}

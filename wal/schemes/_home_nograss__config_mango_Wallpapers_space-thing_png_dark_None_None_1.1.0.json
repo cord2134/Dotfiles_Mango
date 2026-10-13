@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nograss/.config/mango/Wallpapers/space-thing.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C161F",
+        "foreground": "#e2cba5",
+        "cursor": "#e2cba5"
+    },
+    "colors": {
+        "color0": "#0C161F",
+        "color1": "#273A49",
+        "color2": "#2E3169",
+        "color3": "#2C4352",
+        "color4": "#584140",
+        "color5": "#5D5155",
+        "color6": "#96614D",
+        "color7": "#e2cba5",
+        "color8": "#9e8e73",
+        "color9": "#273A49",
+        "color10": "#2E3169",
+        "color11": "#2C4352",
+        "color12": "#584140",
+        "color13": "#5D5155",
+        "color14": "#96614D",
+        "color15": "#e2cba5"
+    }
+}
